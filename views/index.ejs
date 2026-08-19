@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <title>My Stuff</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="/" class="logo">My Stuff</a>
+
+  <a href="/admin/login" class="header-link">
+    Manage →
+  </a>
+</header>
+
+<main>
+
+  <section class="hero">
+    <p class="eyebrow">A small personal sale</p>
+
+    <h1>
+      Things looking<br>
+      for a new home.
+    </h1>
+
+    <p class="hero-copy">
+      A collection of things I no longer need.
+      Everything here is available unless marked otherwise.
+    </p>
+  </section>
+
+  <section class="catalog">
+
+    <div class="catalog-header">
+      <p>
+        <%= listings.length %>
+        <%= listings.length === 1 ? "item" : "items" %>
+      </p>
+    </div>
+
+    <% if (listings.length === 0) { %>
+
+      <div class="empty-state">
+        <p>Nothing listed right now.</p>
+      </div>
+
+    <% } else { %>
+
+      <div class="listing-grid">
+
+        <% listings.forEach(listing => { %>
+
+          <a
+            href="/item/<%= listing.id %>"
+            class="listing-card"
+          >
+
+            <div class="listing-image">
+
+              <% if (listing.image) { %>
+
+                <img
+                  src="/uploads/<%= listing.image %>"
+                  alt="<%= listing.name %>"
+                >
+
+              <% } else { %>
+
+                <div class="no-image">
+                  No photo
+                </div>
+
+              <% } %>
+
+            </div>
+
+            <div class="listing-info">
+
+              <div class="listing-title-row">
+
+                <h2>
+                  <%= listing.name %>
+                </h2>
+
+                <% if (listing.condition) { %>
+                  <span class="condition">
+                    <%= listing.condition %>
+                  </span>
+                <% } %>
+
+              </div>
+
+              <div class="price-row">
+
+                <% if (listing.asking_price != null) { %>
+
+                  <strong>
+                    $<%= Number(listing.asking_price).toLocaleString(
+                      "en-US",
+                      {
+                        minimumFractionDigits: 0,
+                        maximumFractionDigits: 2
+                      }
+                    ) %>
+                  </strong>
+
+                <% } %>
+
+                <% if (listing.original_price != null) { %>
+
+                  <span class="original-price">
+                    originally $<%= Number(listing.original_price).toLocaleString(
+                      "en-US",
+                      {
+                        minimumFractionDigits: 0,
+                        maximumFractionDigits: 2
+                      }
+                    ) %>
+                  </span>
+
+                <% } %>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        <% }) %>
+
+      </div>
+
+    <% } %>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>© <%= new Date().getFullYear() %> My Stuff</p>
+</footer>
+
+</body>
+</html>

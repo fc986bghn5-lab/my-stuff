@@ -1,0 +1,128 @@
+ <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <title><%= listing.name %> · My Stuff</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="/" class="logo">My Stuff</a>
+
+  <a href="/" class="header-link">
+    ← All items
+  </a>
+</header>
+
+<main>
+
+  <section class="detail">
+
+    <div class="detail-image">
+
+      <% if (listing.image) { %>
+
+        <img
+          src="/uploads/<%= listing.image %>"
+          alt="<%= listing.name %>"
+        >
+
+      <% } else { %>
+
+        <div class="no-image">
+          No photo
+        </div>
+
+      <% } %>
+
+    </div>
+
+    <div class="detail-content">
+
+      <p class="eyebrow">
+        <%= listing.category %>
+      </p>
+
+      <h1>
+        <%= listing.name %>
+      </h1>
+
+      <div class="detail-price">
+
+        <% if (listing.asking_price != null) { %>
+
+          <strong>
+            $<%= Number(listing.asking_price).toLocaleString(
+              "en-US",
+              {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 2
+              }
+            ) %>
+          </strong>
+
+        <% } %>
+
+        <% if (listing.original_price != null) { %>
+
+          <span>
+            Originally
+            $<%= Number(listing.original_price).toLocaleString(
+              "en-US",
+              {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 2
+              }
+            ) %>
+          </span>
+
+        <% } %>
+
+      </div>
+
+      <% if (listing.condition) { %>
+
+        <div class="detail-condition">
+          <span>Condition</span>
+          <strong><%= listing.condition %></strong>
+        </div>
+
+      <% } %>
+
+      <% if (listing.description) { %>
+
+        <div class="description">
+          <%= listing.description %>
+        </div>
+
+      <% } %>
+
+      <div class="contact-box">
+
+        <strong>Interested?</strong>
+
+        <p>
+          Get in touch to arrange pickup or ask any questions.
+        </p>
+
+        <!-- Change this to your preferred contact method -->
+        <a href="mailto:you@example.com" class="button button-primary">
+          Contact me
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+</body>
+</html>

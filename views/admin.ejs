@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <title>Admin · My Stuff</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <a href="/" class="logo">My Stuff</a>
+
+  <div class="header-actions">
+
+    <a href="/" class="header-link">
+      View site →
+    </a>
+
+    <form method="POST" action="/admin/logout">
+      <button class="text-button">
+        Log out
+      </button>
+    </form>
+
+  </div>
+
+</header>
+
+<main class="admin-page">
+
+  <div class="admin-heading">
+
+    <div>
+      <p class="eyebrow">Private dashboard</p>
+      <h1>Your listings</h1>
+    </div>
+
+  </div>
+
+  <section class="admin-add">
+
+    <h2>Add something</h2>
+
+    <form
+      class="listing-form"
+      method="POST"
+      action="/admin/listings"
+      enctype="multipart/form-data"
+    >
+
+      <label>
+        Item name
+        <input
+          type="text"
+          name="name"
+          placeholder="e.g. Herman Miller chair"
+          required
+        >
+      </label>
+
+      <label>
+        Description
+        <textarea
+          name="description"
+          rows="4"
+          placeholder="A short description..."
+        ></textarea>
+      </label>
+
+      <div class="form-grid">
+
+        <label>
+          Original price
+          <input
+            type="number"
+            step="0.01"
+            name="original_price"
+            placeholder="1200"
+          >
+        </label>
+
+        <label>
+          Asking price
+          <input
+            type="number"
+            step="0.01"
+            name="asking_price"
+            placeholder="650"
+          >
+        </label>
+
+      </div>
+
+      <div class="form-grid">
+
+        <label>
+          Condition
+          <select name="condition">
+            <option>New</option>
+            <option>Like New</option>
+            <option selected>Excellent</option>
+            <option>Very Good</option>
+            <option>Good</option>
+            <option>Fair</option>
+            <option>For Parts</option>
+          </select>
+        </label>
+
+        <label>
+          Category
+          <select name="category">
+            <option>Furniture</option>
+            <option>Electronics</option>
+            <option>Kitchen</option>
+            <option>Clothing</option>
+            <option>Books</option>
+            <option>Outdoor</option>
+            <option selected>Other</option>
+          </select>
+        </label>
+
+      </div>
+
+      <label>
+        Photo
+        <input
+          type="file"
+          name="image"
+          accept="image/jpeg,image/png,image/webp,image/gif"
+        >
+        <small>Maximum 10 MB.</small>
+      </label>
+
+      <button
+        type="submit"
+        class="button button-primary"
+      >
+        Publish listing
+      </button>
+
+    </form>
+
+  </section>
+
+  <section class="admin-list">
+
+    <div class="admin-section-heading">
+      <h2>All items</h2>
+      <span><%= listings.length %></span>
+    </div>
+
+    <% listings.forEach(listing => { %>
+
+      <div class="admin-item <%= listing.active ? "" : "is-inactive" %>">
+
+        <div class="admin-thumb">
+
+          <% if (listing.image) { %>
+
+            <img
+              src="/uploads/<%= listing.image %>"
+              alt=""
+            >
+
+          <% } else { %>
+
+            <span>—</span>
+
+          <% } %>
+
+        </div>
+
+        <div class="admin-item-info">
+
+          <h3>
+            <%= listing.name %>
+          </h3>
+
+          <p>
+            <% if (listing.asking_price != null) { %>
+              $<%= Number(listing.asking_price).toLocaleString() %>
+            <% } %>
+
+            ·
+
+            <%= listing.condition || "No condition" %>
+          </p>
+
+        </div>
+
+        <div class="admin-status">
+
+          <% if (listing.active) { %>
+            <span class="status active">Listed</span>
+          <% } else { %>
+            <span class="status">Unlisted</span>
+          <% } %>
+
+        </div>
+
+        <div class="admin-actions">
+
+          <a
+            href="/admin/listings/<%= listing.id %>/edit"
+            class="button button-small"
+          >
+            Edit
+          </a>
+
+          <% if (listing.active) { %>
+
+            <form
+              method="POST"
+              action="/admin/listings/<%= listing.id %>/unlist"
+            >
+              <button class="button button-small">
+                Unlist
+              </button>
+            </form>
+
+          <% } else { %>
+
+            <form
+              method="POST"
+              action="/admin/listings/<%= listing.id %>/relist"
+            >
+              <button class="button button-small button-primary">
+                Relist
+              </button>
+            </form>
+
+          <% } %>
+
+        </div>
+
+      </div>
+
+    <% }) %>
+
+  </section>
+
+</main>
+
+</body>
+</html>

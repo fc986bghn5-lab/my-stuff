@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <title>Admin · My Stuff</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="/" class="logo">My Stuff</a>
+
+  <a href="/" class="header-link">
+    ← Back
+  </a>
+</header>
+
+<main class="login-page">
+
+  <div class="login-card">
+
+    <p class="eyebrow">Private area</p>
+
+    <h1>Welcome back.</h1>
+
+    <% if (error) { %>
+      <div class="error">
+        <%= error %>
+      </div>
+    <% } %>
+
+    <form method="POST" action="/admin/login">
+
+      <label>
+        Username
+        <input
+          type="text"
+          name="username"
+          autocomplete="username"
+          required
+        >
+      </label>
+
+      <label>
+        Password
+        <input
+          type="password"
+          name="password"
+          autocomplete="current-password"
+          required
+        >
+      </label>
+
+      <button
+        type="submit"
+        class="button button-primary"
+      >
+        Sign in
+      </button>
+
+    </form>
+
+  </div>
+
+</main>
+
+</body>
+</html>
