@@ -161,6 +161,14 @@ app.get("/admin/login", (req, res) => {
 app.post("/admin/login", (req, res) => {
   const { username, password } = req.body;
 
+  console.log("Login attempt:", {
+    username,
+    configuredUsername: process.env.ADMIN_USERNAME,
+    hasPassword: Boolean(process.env.ADMIN_PASSWORD),
+    hasSessionSecret: Boolean(process.env.SESSION_SECRET),
+    nodeEnv: process.env.NODE_ENV
+  });
+
   const validUsername =
     username === process.env.ADMIN_USERNAME;
 
