@@ -2,6 +2,7 @@ require("dotenv").config();
 
 const express = require("express");
 const session = require("express-session");
+const SQLiteStore = require("connect-sqlite3")(session);
 const Database = require("better-sqlite3");
 const multer = require("multer");
 const helmet = require("helmet");
@@ -11,11 +12,20 @@ const crypto = require("crypto");
 
 const app = express();
 
+// Render runs the app behind a reverse proxy.
+app.set("trust proxy", 1);
+
 const PORT = process.env.PORT || 3000;
 const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "data");
 const UPLOAD_DIR = path.join(DATA_DIR, "uploads");
 
+// Make sure our persistent directories exist.
+fs.mkdirSync(DATA_DIR, { recursive: true });
 fs.mkdirSync(UPLOAD_DIR, { recursive: true });
+
+// --------------------------------------------------
+// Database
+// --------------------------------------------------
 
 const db = new Database(path.join(DATA_DIR, "listings.db"));
 
@@ -37,47 +47,93 @@ db.exec(`
   )
 `);
 
+// --------------------------------------------------
+// Express configuration
+// --------------------------------------------------
+
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
-app.use(helmet({
-  contentSecurityPolicy: false
-}));
+app.use(
+  helmet({
+    contentSecurityPolicy: false
+  })
+);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(session({
-  secret: process.env.SESSION_SECRET,
-  resave: false,
-  saveUninitialized: false,
-  cookie: {
-    httpOnly: true,
-    sameSite: "lax",
-    secure: process.env.NODE_ENV === "production",
-    maxAge: 1000 * 60 * 60 * 24 * 7
-  }
-}));
+// --------------------------------------------------
+// Sessions
+// --------------------------------------------------
 
+app.use(
+  session({
+    store: new SQLiteStore({
+      dir: DATA_DIR,
+      db: "sessions.sqlite"
+    }),
+
+    secret: process.env.SESSION_SECRET,
+
+    resave: false,
+
+    saveUninitialized: false,
+
+    proxy: true,
+
+    cookie: {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "lax",
+      maxAge: 1000 * 60 * 60 * 24 * 7
+    }
+  })
+);
+
+// --------------------------------------------------
+// Static files
+// --------------------------------------------------
+
+// Uploaded listing images.
 app.use("/uploads", express.static(UPLOAD_DIR));
+
+// Everything inside public/ is available from the site root.
+//
+// public/style.css       -> /style.css
+// public/images/foo.svg  -> /images/foo.svg
 app.use(express.static(path.join(__dirname, "public")));
+
+// Browsers sometimes request /favicon.ico automatically.
+app.get("/favicon.ico", (req, res) => {
+  res.redirect("/images/favicon.svg");
+});
+
+// --------------------------------------------------
+// Image uploads
+// --------------------------------------------------
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, UPLOAD_DIR);
   },
+
   filename: (req, file, cb) => {
     const ext = path.extname(file.originalname).toLowerCase();
+
     const filename = `${crypto.randomUUID()}${ext}`;
+
     cb(null, filename);
   }
 });
 
 const upload = multer({
   storage,
+
   limits: {
     fileSize: 10 * 1024 * 1024
   },
+
   fileFilter: (req, file, cb) => {
     const allowed = [
       "image/jpeg",
@@ -94,34 +150,31 @@ const upload = multer({
   }
 });
 
+// --------------------------------------------------
+// Authentication middleware
+// --------------------------------------------------
+
 function requireAuth(req, res, next) {
-  if (req.session.authenticated) {
+  if (req.session && req.session.authenticated === true) {
     return next();
   }
 
   res.redirect("/admin/login");
 }
 
-function requireMethod(method) {
-  return (req, res, next) => {
-    if (req.method !== method) {
-      return res.status(405).send("Method not allowed");
-    }
-    next();
-  };
-}
-
-// -------------------------
+// --------------------------------------------------
 // Public pages
-// -------------------------
+// --------------------------------------------------
 
 app.get("/", (req, res) => {
-  const listings = db.prepare(`
-    SELECT *
-    FROM listings
-    WHERE active = 1
-    ORDER BY created_at DESC
-  `).all();
+  const listings = db
+    .prepare(`
+      SELECT *
+      FROM listings
+      WHERE active = 1
+      ORDER BY created_at DESC
+    `)
+    .all();
 
   res.render("index", {
     listings
@@ -129,11 +182,13 @@ app.get("/", (req, res) => {
 });
 
 app.get("/item/:id", (req, res) => {
-  const listing = db.prepare(`
-    SELECT *
-    FROM listings
-    WHERE id = ? AND active = 1
-  `).get(req.params.id);
+  const listing = db
+    .prepare(`
+      SELECT *
+      FROM listings
+      WHERE id = ? AND active = 1
+    `)
+    .get(req.params.id);
 
   if (!listing) {
     return res.status(404).send("Item not found");
@@ -144,12 +199,12 @@ app.get("/item/:id", (req, res) => {
   });
 });
 
-// -------------------------
-// Authentication
-// -------------------------
+// --------------------------------------------------
+// Login
+// --------------------------------------------------
 
 app.get("/admin/login", (req, res) => {
-  if (req.session.authenticated) {
+  if (req.session && req.session.authenticated === true) {
     return res.redirect("/admin");
   }
 
@@ -160,14 +215,6 @@ app.get("/admin/login", (req, res) => {
 
 app.post("/admin/login", (req, res) => {
   const { username, password } = req.body;
-
-  console.log("Login attempt:", {
-    username,
-    configuredUsername: process.env.ADMIN_USERNAME,
-    hasPassword: Boolean(process.env.ADMIN_PASSWORD),
-    hasSessionSecret: Boolean(process.env.SESSION_SECRET),
-    nodeEnv: process.env.NODE_ENV
-  });
 
   const validUsername =
     username === process.env.ADMIN_USERNAME;
@@ -183,30 +230,51 @@ app.post("/admin/login", (req, res) => {
 
   req.session.authenticated = true;
 
-  res.redirect("/admin");
+  // Explicitly persist the session before redirecting.
+  req.session.save((err) => {
+    if (err) {
+      console.error("Session save failed:", err);
+
+      return res
+        .status(500)
+        .send("Could not create login session.");
+    }
+
+    res.redirect("/admin");
+  });
 });
 
 app.post("/admin/logout", requireAuth, (req, res) => {
-  req.session.destroy(() => {
+  req.session.destroy((err) => {
+    if (err) {
+      console.error("Session destroy failed:", err);
+    }
+
     res.redirect("/");
   });
 });
 
-// -------------------------
-// Admin
-// -------------------------
+// --------------------------------------------------
+// Admin dashboard
+// --------------------------------------------------
 
 app.get("/admin", requireAuth, (req, res) => {
-  const listings = db.prepare(`
-    SELECT *
-    FROM listings
-    ORDER BY active DESC, created_at DESC
-  `).all();
+  const listings = db
+    .prepare(`
+      SELECT *
+      FROM listings
+      ORDER BY active DESC, created_at DESC
+    `)
+    .all();
 
   res.render("admin", {
     listings
   });
 });
+
+// --------------------------------------------------
+// Create listing
+// --------------------------------------------------
 
 app.post(
   "/admin/listings",
@@ -253,30 +321,44 @@ app.post(
   }
 );
 
+// --------------------------------------------------
+// Edit listing page
+// --------------------------------------------------
+
 app.get("/admin/listings/:id/edit", requireAuth, (req, res) => {
-  const listing = db.prepare(`
-    SELECT *
-    FROM listings
-    WHERE id = ?
-  `).get(req.params.id);
+  const listing = db
+    .prepare(`
+      SELECT *
+      FROM listings
+      WHERE id = ?
+    `)
+    .get(req.params.id);
 
   if (!listing) {
     return res.status(404).send("Item not found");
   }
 
-  res.send(renderEditPage(listing));
+  res.render("edit", {
+    listing
+  });
 });
+
+// --------------------------------------------------
+// Save edited listing
+// --------------------------------------------------
 
 app.post(
   "/admin/listings/:id/edit",
   requireAuth,
   upload.single("image"),
   (req, res) => {
-    const existing = db.prepare(`
-      SELECT *
-      FROM listings
-      WHERE id = ?
-    `).get(req.params.id);
+    const existing = db
+      .prepare(`
+        SELECT *
+        FROM listings
+        WHERE id = ?
+      `)
+      .get(req.params.id);
 
     if (!existing) {
       return res.status(404).send("Item not found");
@@ -291,13 +373,21 @@ app.post(
       category
     } = req.body;
 
+    if (!name || !name.trim()) {
+      return res.status(400).send("Name is required.");
+    }
+
     let image = existing.image;
 
+    // If a new image was uploaded, remove the old one.
     if (req.file) {
       image = req.file.filename;
 
       if (existing.image) {
-        const oldPath = path.join(UPLOAD_DIR, existing.image);
+        const oldPath = path.join(
+          UPLOAD_DIR,
+          existing.image
+        );
 
         if (fs.existsSync(oldPath)) {
           fs.unlinkSync(oldPath);
@@ -332,212 +422,49 @@ app.post(
   }
 );
 
-app.post("/admin/listings/:id/unlist", requireAuth, (req, res) => {
-  db.prepare(`
-    UPDATE listings
-    SET active = 0, updated_at = CURRENT_TIMESTAMP
-    WHERE id = ?
-  `).run(req.params.id);
+// --------------------------------------------------
+// Unlist
+// --------------------------------------------------
 
-  res.redirect("/admin");
-});
+app.post(
+  "/admin/listings/:id/unlist",
+  requireAuth,
+  (req, res) => {
+    db.prepare(`
+      UPDATE listings
+      SET
+        active = 0,
+        updated_at = CURRENT_TIMESTAMP
+      WHERE id = ?
+    `).run(req.params.id);
 
-app.post("/admin/listings/:id/relist", requireAuth, (req, res) => {
-  db.prepare(`
-    UPDATE listings
-    SET active = 1, updated_at = CURRENT_TIMESTAMP
-    WHERE id = ?
-  `).run(req.params.id);
+    res.redirect("/admin");
+  }
+);
 
-  res.redirect("/admin");
-});
+// --------------------------------------------------
+// Relist
+// --------------------------------------------------
 
-// -------------------------
-// Edit page helper
-// -------------------------
+app.post(
+  "/admin/listings/:id/relist",
+  requireAuth,
+  (req, res) => {
+    db.prepare(`
+      UPDATE listings
+      SET
+        active = 1,
+        updated_at = CURRENT_TIMESTAMP
+      WHERE id = ?
+    `).run(req.params.id);
 
-function renderEditPage(listing) {
-  const imageHtml = listing.image
-    ? `<img class="edit-preview" src="/uploads/${escapeHtml(listing.image)}" alt="">`
-    : "";
+    res.redirect("/admin");
+  }
+);
 
-  return `
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Edit ${escapeHtml(listing.name)}</title>
-  <link rel="stylesheet" href="/style.css">
-</head>
-<body>
-
-<header class="site-header">
-  <a href="/admin" class="logo">My Stuff</a>
-  <a href="/" class="header-link">View site →</a>
-</header>
-
-<main class="admin-page narrow">
-
-  <a class="back-link" href="/admin">← Back to dashboard</a>
-
-  <div class="admin-heading">
-    <div>
-      <p class="eyebrow">Edit listing</p>
-      <h1>${escapeHtml(listing.name)}</h1>
-    </div>
-  </div>
-
-  <form
-    class="listing-form"
-    method="POST"
-    action="/admin/listings/${listing.id}/edit"
-    enctype="multipart/form-data"
-  >
-
-    <label>
-      Item name
-      <input
-        name="name"
-        value="${escapeAttr(listing.name)}"
-        required
-      >
-    </label>
-
-    <label>
-      Description
-      <textarea name="description" rows="5">${escapeHtml(listing.description || "")}</textarea>
-    </label>
-
-    <div class="form-grid">
-
-      <label>
-        Original price
-        <input
-          type="number"
-          step="0.01"
-          name="original_price"
-          value="${listing.original_price ?? ""}"
-        >
-      </label>
-
-      <label>
-        Asking price
-        <input
-          type="number"
-          step="0.01"
-          name="asking_price"
-          value="${listing.asking_price ?? ""}"
-        >
-      </label>
-
-    </div>
-
-    <div class="form-grid">
-
-      <label>
-        Condition
-        <select name="condition">
-          ${conditionOptions(listing.condition)}
-        </select>
-      </label>
-
-      <label>
-        Category
-        <select name="category">
-          ${categoryOptions(listing.category)}
-        </select>
-      </label>
-
-    </div>
-
-    ${imageHtml}
-
-    <label>
-      Replace image
-      <input
-        type="file"
-        name="image"
-        accept="image/jpeg,image/png,image/webp,image/gif"
-      >
-      <small>Maximum 10 MB.</small>
-    </label>
-
-    <button class="button button-primary" type="submit">
-      Save changes
-    </button>
-
-  </form>
-
-</main>
-
-</body>
-</html>
-  `;
-}
-
-function conditionOptions(selected) {
-  const options = [
-    "New",
-    "Like New",
-    "Excellent",
-    "Very Good",
-    "Good",
-    "Fair",
-    "For Parts"
-  ];
-
-  return options
-    .map(option => `
-      <option
-        value="${escapeAttr(option)}"
-        ${option === selected ? "selected" : ""}
-      >
-        ${escapeHtml(option)}
-      </option>
-    `)
-    .join("");
-}
-
-function categoryOptions(selected) {
-  const options = [
-    "Furniture",
-    "Electronics",
-    "Kitchen",
-    "Clothing",
-    "Books",
-    "Outdoor",
-    "Other"
-  ];
-
-  return options
-    .map(option => `
-      <option
-        value="${escapeAttr(option)}"
-        ${option === selected ? "selected" : ""}
-      >
-        ${escapeHtml(option)}
-      </option>
-    `)
-    .join("");
-}
-
-function escapeHtml(value = "") {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
-}
-
-function escapeAttr(value = "") {
-  return escapeHtml(value);
-}
-
-// -------------------------
-// Error handler
-// -------------------------
+// --------------------------------------------------
+// Error handling
+// --------------------------------------------------
 
 app.use((err, req, res, next) => {
   console.error(err);
@@ -549,6 +476,16 @@ app.use((err, req, res, next) => {
   res.status(500).send("Something went wrong.");
 });
 
+// --------------------------------------------------
+// Start server
+// --------------------------------------------------
+
 app.listen(PORT, () => {
-  console.log(`My Stuff is running at http://localhost:${PORT}`);
+  console.log(
+    `My Stuff is running on port ${PORT}`
+  );
+
+  console.log(
+    `Data directory: ${DATA_DIR}`
+  );
 });
