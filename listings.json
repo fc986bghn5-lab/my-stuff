@@ -1,0 +1,311 @@
+[
+  {
+    "id": "decorative-glasses-1",
+    "name": "Set of 4 decorative glasses",
+    "description": "Used once, beautiful decorative glasses set of 4.",
+    "originalPrice": 25,
+    "askingPrice": 10,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+      "Decor",
+      "New"
+    ],
+    "images": [
+      "images/decorative glasses set of 4.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "foldable-solar-panel-charger-1",
+    "name": "Foldable solar panel charger",
+    "description": "Unused solar panel charger, waterproof, 100W",
+    "originalPrice": 89,
+    "askingPrice": 50,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Tools/utilities",
+      "Outdoor gear"
+    ],
+    "labels": [
+      "New"
+    ],
+    "images": [
+      "images/foldable solar panel charger.png"
+    ],
+    "active": true
+  },
+    {
+    "id": "standing-desk-1",
+    "name": "White standing desk",
+    "description": "Like new standing desk, non-motorized",
+    "originalPrice": 99,
+    "askingPrice": 55,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Furniture"
+    ],
+    "labels": [
+      "Home Office"
+    ],
+    "images": [
+      "images/non motorized standing desk.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "portable-power-station-1",
+    "name": "Portable power station",
+    "description": "256Wh 6-port 300W (600W peak) solar generator with solar panel",
+    "originalPrice": 333,
+    "askingPrice": 200,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Tools/utilities",
+      "Outdoor gear"
+    ],
+    "labels": [
+      "New"
+    ],
+    "images": [
+      "images/portable power station solar generator.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "portable-power-station-solar-generator-1",
+    "name": "Portable power station solar generator",
+    "description": "256Wh with 100W solar panel",
+    "originalPrice": 309.99,
+    "askingPrice": 185,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Tools/utilities",
+      "Outdoor gear"
+    ],
+    "labels": [
+      "New"
+    ],
+    "images": [
+      "images/portable power station.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "robot-vaccum-1",
+    "name": "Roborock automatic vacuum",
+    "description": "Roborock Q8 Max+, like new",
+    "originalPrice": 496.63,
+    "askingPrice": 250,
+    "condition": "Used 2x, like new",
+    "quantity": 1,
+    "categories": [
+      "Household",
+      "Cleaning supplies"
+    ],
+    "labels": [
+    ],
+    "images": [
+      "images/robot vacuum.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "screened-gazebo",
+    "name": "Screened gazebo",
+    "description": "Screened gazebo 10x13, still in box",
+    "originalPrice": 376.24,
+    "askingPrice": 250,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Outdoors"
+    ],
+    "labels": [
+        "Decor",
+        "New"
+    ],
+    "images": [
+      "images/screened gazebo.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "tent",
+    "name": "6-Person tent with stove jack",
+    "description": "Ozark Trail North Fork 6-Person tent with stove jack",
+    "originalPrice": 649.00,
+    "askingPrice": 450,
+    "condition": "Used once, like new",
+    "quantity": 1,
+    "categories": [
+      "Outdoors"
+    ],
+    "labels": [
+        "New"
+    ],
+    "images": [
+      "images/stove-compatible large tent.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "rowing-machine",
+    "name": "Rowing machine",
+    "description": "Sunny Health rowing machine",
+    "originalPrice": 129.00,
+    "askingPrice": 30,
+    "condition": "Like new",
+    "quantity": 1,
+    "categories": [
+      "Exercise equipment"
+    ],
+    "labels": [
+        "Like new"
+    ],
+    "images": [
+      "images/Sunny Health rowing machine.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "camping-stove",
+    "name": "Portable wood camping stove",
+    "description": "BENTISM portable wood camping stove",
+    "originalPrice": 179.00,
+    "askingPrice": 70,
+    "condition": "Like new",
+    "quantity": 1,
+    "categories": [
+      "Outdoors"
+    ],
+    "labels": [
+        "Like new"
+    ],
+    "images": [
+      "images/wood camping stove for hot tent.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "tiki-glass-1",
+    "name": "Bleeding heart tiki glass",
+    "description": "",
+    "originalPrice": 9.95,
+    "askingPrice": 5,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "Tiki"
+    ],
+    "images": [
+      "images/bleeding heart tiki glass.png"
+    ],
+    "active": true
+  },
+    {
+    "id": "tiki-glass-2",
+    "name": "Faces tiki glass",
+    "description": "",
+    "originalPrice": 9.95,
+    "askingPrice": 5,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "Tiki"
+    ],
+    "images": [
+      "images/faces tiki mug.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "tiki-glass-3",
+    "name": "Jellyfish tiki glass",
+    "description": "",
+    "originalPrice": 9.95,
+    "askingPrice": 5,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "Tiki"
+    ],
+    "images": [
+      "images/jellyfish tiki mug.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "tiki-glass-4",
+    "name": "4 set of tiki glasses",
+    "description": "",
+    "originalPrice": 26.95,
+    "askingPrice": 15,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "Tiki"
+    ],
+    "images": [
+      "images/multiple-tiki-glasses.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "tiki-glass-5",
+    "name": "Shell tiki glass",
+    "description": "",
+    "originalPrice": 26.95,
+    "askingPrice": 15,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "Tiki"
+    ],
+    "images": [
+      "images/shell tiki glass.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "tiki-glass-6",
+    "name": "Seahorse tiki glass",
+    "description": "",
+    "originalPrice": 9.95,
+    "askingPrice": 5,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "Tiki"
+    ],
+    "images": [
+      "images/seahorse tiki mug.png"
+    ],
+    "active": true
+  }
+]

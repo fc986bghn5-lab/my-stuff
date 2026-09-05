@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My Stuff</title>
+  <meta
+    name="description"
+    content="Things I'm selling."
+  >
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">My Stuff</a>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>For Sale</h1>
+      <p class="hero-text">
+        I am downsizing and have a lot of new or gently used items that could use a new home. Take a look around and reach out to jtkaufman737@gmail.com if you are interested in anything you see.
+      </p>
+    </div>
+  </section>
+
+  <section class="catalog">
+
+    <div class="catalog-top">
+      <div>
+        <p class="eyebrow">Browse</p>
+        <h2>Available items</h2>
+      </div>
+
+      <div class="search-wrapper">
+        <input
+          id="search"
+          type="search"
+          placeholder="Search items..."
+          autocomplete="off"
+        >
+      </div>
+    </div>
+
+    <div id="category-filters" class="category-filters"></div>
+
+    <div id="listing-count" class="listing-count"></div>
+
+    <div id="listings" class="listing-grid">
+      <div class="loading">Loading...</div>
+    </div>
+
+    <div id="empty-state" class="empty-state hidden">
+      <h3>No items found</h3>
+      <p>Try another search or category.</p>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>My Stuff · Items for sale</p>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
