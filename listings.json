@@ -320,9 +320,10 @@
       "Kitchenware"
     ],
     "labels": [
-        "Tiki"
+        "Books"
     ],
-    "images": [
+    "images": [ 
+        "images/books images.png"
     ],
     "active": true
   }
