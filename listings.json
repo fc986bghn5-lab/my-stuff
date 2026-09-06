@@ -307,5 +307,24 @@
       "images/seahorse tiki mug.png"
     ],
     "active": true
+  },
+  {
+    "id": "books-all",
+    "name": "Huge variety of books",
+    "description": "I had to put nonsense pricing info here because the variety among the books was so huge. There were too many of them to do individual listings so I am tracking them in this spreadsheet: https://docs.google.com/spreadsheets/d/1w2dzovvmssSHCbizy5GmqDLCkiyMN3rM32cufqa2D88/edit?usp=sharing Let me know which titles you are interested in if you want any.",
+    "originalPrice": 20,
+    "askingPrice": 20,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "Tiki"
+    ],
+    "images": [
+      "images/seahorse tiki mug.png"
+    ],
+    "active": true
   }
 ]
