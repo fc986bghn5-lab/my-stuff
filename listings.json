@@ -326,5 +326,121 @@
         "images/books images.png"
     ],
     "active": true
+  },
+  {
+    "id": "painting-1",
+    "name": "Golden framed goth painting, blue",
+    "description": "",
+    "originalPrice": 50,
+    "askingPrice": 35,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Blue",
+        "Decor",
+        "Goth"
+    ],
+    "images": [
+      "images/blue artistic animal painting.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "ps5-game-1",
+    "name": "Spirit of the North PS5 game",
+    "description": "",
+    "originalPrice": 22,
+    "askingPrice": 11,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Videogames"
+    ],
+    "labels": [
+        "Videogames"
+    ],
+    "images": [
+      "images/Spirit of the North PS5 game.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "ps5-game-2",
+    "name": "Rachet & Clank PS5 game",
+    "description": "",
+    "originalPrice": 44.39,
+    "askingPrice": 22,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Videogames"
+    ],
+    "labels": [
+        "Videogames"
+    ],
+    "images": [
+      "images/Rachet & Clank PS5 game.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "ps5-game-4",
+    "name": "Kena PS5 game",
+    "description": "",
+    "originalPrice": 25.34,
+    "askingPrice": 12,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Videogames"
+    ],
+    "labels": [
+        "Videogames"
+    ],
+    "images": [
+      "images/Kena PS5 game.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "ps5-game-5",
+    "name": "Elden Ring PS5 game",
+    "description": "",
+    "originalPrice": 49.00,
+    "askingPrice": 23,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Videogames"
+    ],
+    "labels": [
+        "Videogames"
+    ],
+    "images": [
+      "images/Elden Ring PS5 game.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "glasses-2",
+    "name": "Moscow mule glasses set of 4",
+    "description": "Copper moscow mule glasses, set of 4. I don't know the original cost, they were a gift.",
+    "originalPrice": 0,
+    "askingPrice": 10,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "New"
+    ],
+    "images": [
+      "images/Moscow mule glasses.png"
+    ],
+    "active": true
   }
 ]
