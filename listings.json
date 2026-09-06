@@ -315,9 +315,9 @@
     "originalPrice": 20,
     "askingPrice": 20,
     "condition": "New",
-    "quantity": 1,
+    "quantity": 250,
     "categories": [
-      "Kitchenware"
+      "Books"
     ],
     "labels": [
         "Books"
