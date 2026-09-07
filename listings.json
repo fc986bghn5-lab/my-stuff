@@ -77,6 +77,25 @@
     ],
     "active": true
   },
+    {
+    "id": "mai-parson-chair",
+    "name": "Two mai parson chairs",
+    "description": " in cloud gray(* different color than picture, sorry! I couldn't find this product live anymore). They are I understand it to be a light gray and condition is new, box never opened. Asking 30/chair because I don't remember cost and couldn't find the order searching my emails.",
+    "originalPrice": 0,
+    "askingPrice": 30,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Furniture"
+    ],
+    "labels": [
+      "Dining room"
+    ],
+    "images": [
+      "images/Mai parson chair.png"
+    ],
+    "active": true
+  },
   {
     "id": "portable-power-station-1",
     "name": "Portable power station",
