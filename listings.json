@@ -425,6 +425,44 @@
     "active": true
   },
   {
+    "id": "frames-2",
+    "name": "Multicolored wood frames for 4x6 picture",
+    "description": "",
+    "originalPrice": 15,
+    "askingPrice": 10,
+    "condition": "New",
+    "quantity": 3,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/8x10 light wood frames.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "art-1",
+    "name": "Bosch print",
+    "description": "Print only, not with frame",
+    "originalPrice": 11,
+    "askingPrice": 5,
+    "condition": "New",
+    "quantity": 3,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/Bosch Garden of Earthly Delights poster.png"
+    ],
+    "active": true
+  },
+  {
     "id": "candlesticks-1",
     "name": "Green candles and candlesticks",
     "description": "Four decorative green candles and candlesticks. They've been lit once because I have a weird superstition about keeping unlit candles around. They burned for maybe just a couple of minutes though.",
@@ -650,6 +688,25 @@
     ],
     "images": [
       "images/Moscow mule glasses.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "glasses-3",
+    "name": "Decorative amber glasses set of 8",
+    "description": "Copper moscow mule glasses, set of 4. I don't know the original cost, they were a gift.",
+    "originalPrice": 60,
+    "askingPrice": 30,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "New"
+    ],
+    "images": [
+      "images/decorative amber glasses set of 8.png"
     ],
     "active": true
   }
