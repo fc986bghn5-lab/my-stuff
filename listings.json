@@ -79,11 +79,11 @@
     "active": true
   },
   {
-    "id": "portable-power-station-solar-generator-1",
-    "name": "Portable power station solar generator",
-    "description": "256Wh with 100W solar panel",
-    "originalPrice": 309.99,
-    "askingPrice": 185,
+    "id": "portable-power-bank",
+    "name": "Schumaker Electric portable power station",
+    "description": "Schumaker Electric portable power station model SJ1332 12v",
+    "originalPrice": 122,
+    "askingPrice": 75,
     "condition": "New",
     "quantity": 1,
     "categories": [
@@ -309,6 +309,25 @@
     "active": true
   },
   {
+    "id": "tiki-glass-7",
+    "name": "Skull tiki glass",
+    "description": "",
+    "originalPrice": 15,
+    "askingPrice": 7,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "Tiki"
+    ],
+    "images": [
+      "images/seahorse tiki mug.png"
+    ],
+    "active": true
+  },
+  {
     "id": "books-all",
     "name": "Huge variety of books",
     "description": "I had to put nonsense pricing info here because the variety among the books was so huge. There were too many of them to do individual listings so I am tracking them in this spreadsheet: https://docs.google.com/spreadsheets/d/1w2dzovvmssSHCbizy5GmqDLCkiyMN3rM32cufqa2D88/edit?usp=sharing Let me know which titles you are interested in if you want any.",
@@ -345,6 +364,82 @@
     ],
     "images": [
       "images/blue artistic animal painting.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "painting-2",
+    "name": "Gray framed print",
+    "description": "",
+    "originalPrice": 50,
+    "askingPrice": 35,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/print in gray frame.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "chaise",
+    "name": "Gray chaise",
+    "description": "",
+    "originalPrice": 100,
+    "askingPrice": 60,
+    "condition": "Like new",
+    "quantity": 1,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/gray chaise.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "frames-1",
+    "name": "8x10 light wood frames",
+    "description": "",
+    "originalPrice": 10,
+    "askingPrice": 5,
+    "condition": "New",
+    "quantity": 4,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/8x10 light wood frames.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "copper-decorative-vase",
+    "name": "Copper decorative vase",
+    "description": "",
+    "originalPrice": 50,
+    "askingPrice": 25,
+    "condition": "Like new",
+    "quantity": 1,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/copper decorative vase.png"
     ],
     "active": true
   },
