@@ -827,6 +827,44 @@
     "active": true
   },
   {
+    "id": "table-1",
+    "name": "Modern light wood coffee table",
+    "description": "",
+    "originalPrice": 124.99,
+    "askingPrice": 70,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Electronics"
+    ],
+    "labels": [
+
+    ],
+    "images": [
+      "images/light wood coffee table.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "ipad-1",
+    "name": "iPad 8th gen like new with stylus and case",
+    "description": "",
+    "originalPrice": 0,
+    "askingPrice": 100,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Electronics"
+    ],
+    "labels": [
+
+    ],
+    "images": [
+      "images/ipad.png"
+    ],
+    "active": true
+  },
+  {
     "id": "ps5-game-1",
     "name": "Spirit of the North PS5 game",
     "description": "",
@@ -1042,12 +1080,30 @@
     "originalPrice": 128.06,
     "askingPrice": 50,
     "condition": "Like new",
-    "quantity": 1,
+    "quantity": 2,
     "categories": [
       "Kitchenware"
     ],
     "labels": [
         "New"
+    ],
+    "images": [
+      "images/aerogarden.png"
+    ],
+    "active": true
+  },
+    {
+    "id": "saw-1",
+    "name": "Wet saw",
+    "description": "7-in 4.8-Amp Wet Tabletop Tile Saw",
+    "originalPrice": 99,
+    "askingPrice": 65,
+    "condition": "Very good",
+    "quantity": 2,
+    "categories": [
+      "Tools"
+    ],
+    "labels": [
     ],
     "images": [
       "images/aerogarden.png"
