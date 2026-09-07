@@ -237,7 +237,7 @@
   {
     "id": "backsplash1",
     "name": "7 boxes of elongated hexagon tiles for backsplash, white",
-    "description": "They go for 45/box currently. See also, will be posting a wet saw soon that can cut them.",
+    "description": "They go for 45/box currently. In total they cover 37 square feet. Suitable for a small kitchen backsplash or bathroom backsplash depending on how big your space is. See also, will be posting a wet saw soon that can cut them.",
     "originalPrice": 45,
     "askingPrice": 30,
     "condition": "New",
@@ -1307,7 +1307,7 @@
   {
     "id": "aerogarden-1",
     "name": "Two aerogardens",
-    "description": "Copper moscow mule glasses, set of 4. I don't know the original cost, they were a gift.",
+    "description": "",
     "originalPrice": 128.06,
     "askingPrice": 50,
     "condition": "Like new",
@@ -1337,7 +1337,7 @@
     "labels": [
     ],
     "images": [
-      "images/aerogarden.png"
+      "images/wet saw.png"
     ],
     "active": true
   }
