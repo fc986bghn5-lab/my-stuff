@@ -1,21 +1,41 @@
 [
   {
-    "id": "decorative-glasses-1",
-    "name": "Set of 4 decorative glasses",
-    "description": "Used once, beautiful decorative glasses set of 4.",
-    "originalPrice": 25,
-    "askingPrice": 10,
+    "id": "leather-mask-1",
+    "name": "Leather mask",
+    "description": "Handmade leather mask from Ren Faire",
+    "originalPrice": 89,
+    "askingPrice": 50,
     "condition": "New",
     "quantity": 1,
     "categories": [
-      "Kitchenware"
+      "Clothing",
+      "Accessories"
     ],
     "labels": [
-      "Decor",
       "New"
     ],
     "images": [
-      "images/decorative glasses set of 4.png"
+      "images/Leather ren faire mask.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "purse-1",
+    "name": "Small t-rex purse",
+    "description": "Amazing conversation starter lol",
+    "originalPrice": 40,
+    "askingPrice": 20,
+    "condition": "Like New",
+    "quantity": 1,
+    "categories": [
+      "Clothing",
+      "Accessories"
+    ],
+    "labels": [
+      "Like New"
+    ],
+    "images": [
+      "images/trex purse, like new.png"
     ],
     "active": true
   },
@@ -254,6 +274,25 @@
     "active": true
   },
   {
+    "id": "yoga-mat",
+    "name": "Yoga mat",
+    "description": "Never used",
+    "originalPrice": 44,
+    "askingPrice": 20,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Exercise equipment"
+    ],
+    "labels": [
+        "new"
+    ],
+    "images": [
+      "images/yoga mat, unused.png"
+    ],
+    "active": true
+  },
+  {
     "id": "camping-stove",
     "name": "Portable wood camping stove",
     "description": "BENTISM portable wood camping stove",
@@ -269,6 +308,26 @@
     ],
     "images": [
       "images/wood camping stove for hot tent.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "decorative-glasses-1",
+    "name": "Set of 4 decorative glasses",
+    "description": "Used once, beautiful decorative glasses set of 4.",
+    "originalPrice": 25,
+    "askingPrice": 10,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+      "Decor",
+      "New"
+    ],
+    "images": [
+      "images/decorative glasses set of 4.png"
     ],
     "active": true
   },
@@ -673,6 +732,63 @@
     ],
     "active": true
   },
+   {
+    "id": "painting-3",
+    "name": "Map of Baltimore large framed print",
+    "description": "",
+    "originalPrice": 50,
+    "askingPrice": 35,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/large print of a map of Baltimore.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "painting-4",
+    "name": "Map of Raleigh large framed print",
+    "description": "",
+    "originalPrice": 50,
+    "askingPrice": 35,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/framed map of raleigh 24x36.png"
+    ],
+    "active": true
+  },
+   {
+    "id": "painting-5",
+    "name": "Framed Dali print",
+    "description": "",
+    "originalPrice": 40,
+    "askingPrice": 20,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/framed Dali print.png"
+    ],
+    "active": true
+  },
   {
     "id": "chaise",
     "name": "Gray chaise",
@@ -827,6 +943,26 @@
     "active": true
   },
   {
+    "id": "decorative-bowl-1",
+    "name": "Blue geometric decorative bowl",
+    "description": "",
+    "originalPrice": 30,
+    "askingPrice": 13,
+    "condition": "Like new",
+    "quantity": 1,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor",
+        "Blue"
+    ],
+    "images": [
+      "images/blue decorative bowl, about 1ft diameter.png"
+    ],
+    "active": true
+  },
+  {
     "id": "copper-decorative-vase",
     "name": "Copper decorative vase",
     "description": "",
@@ -842,6 +978,44 @@
     ],
     "images": [
       "images/copper decorative vase.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "large-decorative-vase",
+    "name": "White decorative vase",
+    "description": "",
+    "originalPrice": 50,
+    "askingPrice": 35,
+    "condition": "Like new",
+    "quantity": 1,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/large decorative vase, white.png"
+    ],
+    "active": true
+  },
+    {
+    "id": "small-decorative-vase",
+    "name": "Small white decorative vase",
+    "description": "",
+    "originalPrice": 30,
+    "askingPrice": 15,
+    "condition": "Like new",
+    "quantity": 1,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/small decorative vase, white.png"
     ],
     "active": true
   },
@@ -880,6 +1054,25 @@
     ],
     "images": [
       "images/ipad.png"
+    ],
+    "active": true
+  },
+    {
+    "id": "monitor-1",
+    "name": "HP monitor",
+    "description": "",
+    "originalPrice": 89.99,
+    "askingPrice": 60,
+    "condition": "Like new",
+    "quantity": 1,
+    "categories": [
+      "Electronics"
+    ],
+    "labels": [
+
+    ],
+    "images": [
+      "images/monitor.png"
     ],
     "active": true
   },
@@ -1089,6 +1282,25 @@
     ],
     "images": [
       "images/decorative amber glasses set of 8.png"
+    ],
+    "active": true
+  },
+    {
+    "id": "coasters-1",
+    "name": "Decorative geode coasters",
+    "description": "",
+    "originalPrice": 30,
+    "askingPrice": 10,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "New"
+    ],
+    "images": [
+      "images/geode coasters, set of 5.png"
     ],
     "active": true
   },
