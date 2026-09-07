@@ -1,1325 +1,1555 @@
 [
-  {
-    "id": "leather-mask-1",
-    "name": "Leather mask",
-    "description": "Handmade leather mask from Ren Faire",
-    "originalPrice": 89,
-    "askingPrice": 50,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Clothing",
-      "Accessories"
-    ],
-    "labels": [
-      "New"
-    ],
-    "images": [
-      "images/Leather ren faire mask.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "purse-1",
-    "name": "Small t-rex purse",
-    "description": "Amazing conversation starter lol",
-    "originalPrice": 40,
-    "askingPrice": 20,
-    "condition": "Like New",
-    "quantity": 1,
-    "categories": [
-      "Clothing",
-      "Accessories"
-    ],
-    "labels": [
-      "Like New"
-    ],
-    "images": [
-      "images/trex purse, like new.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "foldable-solar-panel-charger-1",
-    "name": "Foldable solar panel charger",
-    "description": "Unused solar panel charger, waterproof, 100W",
-    "originalPrice": 89,
-    "askingPrice": 50,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Tools/utilities",
-      "Outdoor gear"
-    ],
-    "labels": [
-      "New"
-    ],
-    "images": [
-      "images/foldable solar panel charger.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "standing-desk-1",
-    "name": "White standing desk",
-    "description": "Like new standing desk, non-motorized",
-    "originalPrice": 99,
-    "askingPrice": 55,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Furniture"
-    ],
-    "labels": [
-      "Home Office"
-    ],
-    "images": [
-      "images/non motorized standing desk.png"
-    ],
-    "active": false
-  },
-  {
-    "id": "beach-chairs-1",
-    "name": "Two inflatable beach chairs black and white pattern",
-    "description": "New - asking $20/chair",
-    "originalPrice": 70,
-    "askingPrice": 40,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Furniture"
-    ],
-    "labels": [
-      "Home Office"
-    ],
-    "images": [
-      "images/inflatable beach chairs abstract black and white pattern, 2 chairs available.png"
-    ],
-    "active": true
-  },
     {
-    "id": "mai-parson-chair",
-    "name": "Two mai parson chairs",
-    "description": " in cloud gray(* different color than picture, sorry! I couldn't find this product live anymore). They are I understand it to be a light gray and condition is new, box never opened. Asking 30/chair because I don't remember cost and couldn't find the order searching my emails.",
-    "originalPrice": 0,
-    "askingPrice": 30,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Furniture"
-    ],
-    "labels": [
-      "Dining room"
-    ],
-    "images": [
-      "images/Mai parson chair.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "portable-power-station-1",
-    "name": "Portable power station",
-    "description": "256Wh 6-port 300W (600W peak) solar generator with solar panel",
-    "originalPrice": 333,
-    "askingPrice": 200,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Tools/utilities",
-      "Outdoor gear"
-    ],
-    "labels": [
-      "New"
-    ],
-    "images": [
-      "images/portable power station solar generator.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "portable-power-bank",
-    "name": "Schumaker Electric portable power station",
-    "description": "Schumaker Electric portable power station model SJ1332 12v",
-    "originalPrice": 122,
-    "askingPrice": 75,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Tools/utilities",
-      "Outdoor gear"
-    ],
-    "labels": [
-      "New"
-    ],
-    "images": [
-      "images/portable power station.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "robot-vaccum-1",
-    "name": "Roborock automatic vacuum",
-    "description": "Roborock Q8 Max+, like new",
-    "originalPrice": 496.63,
-    "askingPrice": 250,
-    "condition": "Used 2x, like new",
-    "quantity": 1,
-    "categories": [
-      "Household",
-      "Cleaning supplies"
-    ],
-    "labels": [
-    ],
-    "images": [
-      "images/robot vacuum.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "screened-gazebo",
-    "name": "Screened gazebo",
-    "description": "Screened gazebo 10x13, still in box",
-    "originalPrice": 376.24,
-    "askingPrice": 250,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Outdoors"
-    ],
-    "labels": [
-        "Decor",
-        "New"
-    ],
-    "images": [
-      "images/screened gazebo.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "bed-1",
-    "name": "Metal full sized bed",
-    "description": "Coming soon, matching set of drawers if you are interested in a complete bedroom set. I have a matress and memory foam topper if interested too - it has barely ever been used and is in good condition.",
-    "originalPrice": 115,
-    "askingPrice": 75,
-    "condition": "Like New",
-    "quantity": 1,
-    "categories": [
-      "Bedroom"
-    ],
-    "labels": [
-        "Decor",
-        "New"
-    ],
-    "images": [
-      "images/white full sized beed.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "tent",
-    "name": "6-Person tent with stove jack",
-    "description": "Ozark Trail North Fork 6-Person tent with stove jack",
-    "originalPrice": 649.00,
-    "askingPrice": 450,
-    "condition": "Used once, like new",
-    "quantity": 1,
-    "categories": [
-      "Outdoors"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [
-      "images/stove-compatible large tent.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "backsplash1",
-    "name": "7 boxes of elongated hexagon tiles for backsplash, white",
-    "description": "They go for 45/box currently. In total they cover 37 square feet. Suitable for a small kitchen backsplash or bathroom backsplash depending on how big your space is. See also, will be posting a wet saw soon that can cut them.",
-    "originalPrice": 45,
-    "askingPrice": 30,
-    "condition": "New",
-    "quantity": 7,
-    "categories": [
-      "Kitchen",
-      "Bathroom"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [
-      "images/hexagon tiles for backsplash.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "rowing-machine",
-    "name": "Rowing machine",
-    "description": "Sunny Health rowing machine",
-    "originalPrice": 129.00,
-    "askingPrice": 30,
-    "condition": "Like new",
-    "quantity": 1,
-    "categories": [
-      "Exercise equipment"
-    ],
-    "labels": [
-        "Like new"
-    ],
-    "images": [
-      "images/Sunny Health rowing machine.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "yoga-mat",
-    "name": "Yoga mat",
-    "description": "Never used",
-    "originalPrice": 44,
-    "askingPrice": 20,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Exercise equipment"
-    ],
-    "labels": [
-        "new"
-    ],
-    "images": [
-      "images/yoga mat, unused.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "camping-stove",
-    "name": "Portable wood camping stove",
-    "description": "BENTISM portable wood camping stove",
-    "originalPrice": 179.00,
-    "askingPrice": 70,
-    "condition": "Like new",
-    "quantity": 1,
-    "categories": [
-      "Outdoors"
-    ],
-    "labels": [
-        "Like new"
-    ],
-    "images": [
-      "images/wood camping stove for hot tent.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "decorative-glasses-1",
-    "name": "Set of 4 decorative glasses",
-    "description": "Used once, beautiful decorative glasses set of 4.",
-    "originalPrice": 25,
-    "askingPrice": 10,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-      "Decor",
-      "New"
-    ],
-    "images": [
-      "images/decorative glasses set of 4.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "tiki-glass-1",
-    "name": "Bleeding heart tiki glass",
-    "description": "",
-    "originalPrice": 9.95,
-    "askingPrice": 5,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "Tiki"
-    ],
-    "images": [
-      "images/bleeding heart tiki glass.png"
-    ],
-    "active": true
-  },
+        "id": "necklace-1",
+        "name": "Silver skull necklace",
+        "description": "",
+        "originalPrice": 24,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Jewelry",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/skull necklace.png"
+        ],
+        "active": true
+    },
     {
-    "id": "tiki-glass-2",
-    "name": "Faces tiki glass",
-    "description": "",
-    "originalPrice": 9.95,
-    "askingPrice": 5,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "Tiki"
-    ],
-    "images": [
-      "images/faces tiki mug.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "tiki-glass-3",
-    "name": "Jellyfish tiki glass",
-    "description": "",
-    "originalPrice": 9.95,
-    "askingPrice": 5,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "Tiki"
-    ],
-    "images": [
-      "images/jellyfish tiki mug.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "tiki-glass-4",
-    "name": "4 set of tiki glasses",
-    "description": "",
-    "originalPrice": 26.95,
-    "askingPrice": 15,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "Tiki"
-    ],
-    "images": [
-      "images/multiple-tiki-glasses.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "tiki-glass-5",
-    "name": "Shell tiki glass",
-    "description": "",
-    "originalPrice": 9.95,
-    "askingPrice": 5,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "Tiki"
-    ],
-    "images": [
-      "images/shell tiki glass.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "tiki-glass-6",
-    "name": "Seahorse tiki glass",
-    "description": "",
-    "originalPrice": 9.95,
-    "askingPrice": 5,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "Tiki"
-    ],
-    "images": [
-      "images/seahorse tiki mug.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "tiki-glass-7",
-    "name": "Skull tiki glass",
-    "description": "",
-    "originalPrice": 15,
-    "askingPrice": 7,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "Tiki"
-    ],
-    "images": [
-      "images/seahorse tiki mug.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "books-all",
-    "name": "Huge variety of books",
-    "description": "I had to put nonsense pricing info here because the variety among the books was so huge. There were too many of them to do individual listings so I am tracking them in this spreadsheet: https://docs.google.com/spreadsheets/d/1w2dzovvmssSHCbizy5GmqDLCkiyMN3rM32cufqa2D88/edit?usp=sharing Let me know which titles you are interested in if you want any.",
-    "originalPrice": 20,
-    "askingPrice": 20,
-    "condition": "New",
-    "quantity": 250,
-    "categories": [
-      "Books"
-    ],
-    "labels": [
-        "Books"
-    ],
-    "images": [ 
-        "images/books images.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "game-1",
-    "name": "Code Names game",
-    "description": "",
-    "originalPrice": 15,
-    "askingPrice": 7,
-    "condition": "New",
-    "quantity": 250,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/code names.png"
-    ],
-    "active": true
-  },
+        "id": "ear-jewelry-1",
+        "name": "Snake ear jewelry",
+        "description": "",
+        "originalPrice": 65,
+        "askingPrice": 20,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Jewelry",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/snake ear jewelry.png"
+        ],
+        "active": true
+    },
     {
-    "id": "game-2",
-    "name": "Dizzy Date game",
-    "description": "",
-    "originalPrice": 24,
-    "askingPrice": 10,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/dizzy date couples game.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "game-3",
-    "name": "Hot Takes game",
-    "description": "",
-    "originalPrice": 19.99,
-    "askingPrice": 10,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/hot takes game.png"
-    ],
-    "active": true
-  },
+        "id": "ear-jewelry-2",
+        "name": "Dragon ear jewelry",
+        "description": "",
+        "originalPrice": 65,
+        "askingPrice": 20,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Jewelry",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/dragon ear jewelry.png"
+        ],
+        "active": true
+    },
     {
-    "id": "game-4",
-    "name": "Off Topic game",
-    "description": "",
-    "originalPrice": 29.99,
-    "askingPrice": 15,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/Off topic.png"
-    ],
-    "active": true
-  },
-      {
-    "id": "game-5",
-    "name": "Ransom Notes game",
-    "description": "",
-    "originalPrice": 49.99,
-    "askingPrice": 25,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/Ransom Notes game.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "game-7",
-    "name": "Salsa game",
-    "description": "",
-    "originalPrice": 29.99,
-    "askingPrice": 15,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/Salsa game.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "game-8",
-    "name": "Scythe game",
-    "description": "",
-    "originalPrice": 77.71,
-    "askingPrice": 45,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/scythe game.png"
-    ],
-    "active": true
-  },
+        "id": "ear-jewelry-3",
+        "name": "Bat wing ear jewelry",
+        "description": "",
+        "originalPrice": 65,
+        "askingPrice": 20,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Jewelry",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/bat wing ear jewelry.png"
+        ],
+        "active": true
+    },
     {
-    "id": "game-9",
-    "name": "What do you meme game",
-    "description": "",
-    "originalPrice": 77.71,
-    "askingPrice": 45,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/What do you meme game.png"
-    ],
-    "active": true
-  },
-      {
-    "id": "game-10",
-    "name": "Wingspan game",
-    "description": "",
-    "originalPrice": 47.99,
-    "askingPrice": 30,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/wingspan game.png"
-    ],
-    "active": true
-  },
-        {
-    "id": "game-11",
-    "name": "Worst case scenario game",
-    "description": "",
-    "originalPrice": 16.72,
-    "askingPrice": 10,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/Worst case scenario adult game.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "painting-1",
-    "name": "Golden framed goth painting, blue",
-    "description": "",
-    "originalPrice": 50,
-    "askingPrice": 35,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Blue",
-        "Decor",
-        "Goth"
-    ],
-    "images": [
-      "images/blue artistic animal painting.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "painting-2",
-    "name": "Gray framed print",
-    "description": "",
-    "originalPrice": 50,
-    "askingPrice": 35,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/print in gray frame.png"
-    ],
-    "active": true
-  },
-   {
-    "id": "painting-3",
-    "name": "Map of Baltimore large framed print",
-    "description": "",
-    "originalPrice": 50,
-    "askingPrice": 35,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/large print of a map of Baltimore.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "painting-4",
-    "name": "Map of Raleigh large framed print",
-    "description": "",
-    "originalPrice": 50,
-    "askingPrice": 35,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/framed map of raleigh 24x36.png"
-    ],
-    "active": true
-  },
-   {
-    "id": "painting-5",
-    "name": "Framed Dali print",
-    "description": "",
-    "originalPrice": 40,
-    "askingPrice": 20,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/framed Dali print.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "chaise",
-    "name": "Gray chaise",
-    "description": "",
-    "originalPrice": 100,
-    "askingPrice": 60,
-    "condition": "Like new",
-    "quantity": 1,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/gray chaise.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "frames-1",
-    "name": "8x10 light wood frames",
-    "description": "",
-    "originalPrice": 10,
-    "askingPrice": 5,
-    "condition": "New",
-    "quantity": 4,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/8x10 light wood frames.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "frames-2",
-    "name": "Multicolored wood frames for 4x6 picture",
-    "description": "",
-    "originalPrice": 15,
-    "askingPrice": 10,
-    "condition": "New",
-    "quantity": 3,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/multicolored wood frames for 4x6 pictures.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "frames-3",
-    "name": "5x7 gold frame",
-    "description": "",
-    "originalPrice": 7,
-    "askingPrice": 5,
-    "condition": "Like new",
-    "quantity": 3,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/5x7 gold frame.png"
-    ],
-    "active": true
-  },
+        "id": "necklace-2",
+        "name": "Mother of pearl pocket knife necklace",
+        "description": "",
+        "originalPrice": 40,
+        "askingPrice": 15,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Jewelry",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/mother of pearl mini pocket knife necklace.png"
+        ],
+        "active": true
+    },
     {
-    "id": "frames-4",
-    "name": "5x7 wood frame",
-    "description": "",
-    "originalPrice": 7,
-    "askingPrice": 5,
-    "condition": "Like new",
-    "quantity": 3,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/5x7 wood frame.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "art-1",
-    "name": "Bosch print",
-    "description": "Print only, not with frame",
-    "originalPrice": 11,
-    "askingPrice": 5,
-    "condition": "New",
-    "quantity": 3,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/Bosch Garden of Earthly Delights poster.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "gold-mirror-1",
-    "name": "Gold decorative mirror 38x21",
-    "description": "",
-    "originalPrice": 61,
-    "askingPrice": 5,
-    "condition": "New",
-    "quantity": 30,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/decorative gold mirror 38 x 21.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "candlesticks-1",
-    "name": "Green candles and candlesticks",
-    "description": "Four decorative green candles and candlesticks. They've been lit once because I have a weird superstition about keeping unlit candles around. They burned for maybe just a couple of minutes though.",
-    "originalPrice": 60,
-    "askingPrice": 25,
-    "condition": "Very good",
-    "quantity": 4,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor",
-        "Green"
-    ],
-    "images": [
-      "images/green candles and candlesticks.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "decorative-bowl-1",
-    "name": "Blue geometric decorative bowl",
-    "description": "",
-    "originalPrice": 30,
-    "askingPrice": 13,
-    "condition": "Like new",
-    "quantity": 1,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor",
-        "Blue"
-    ],
-    "images": [
-      "images/blue decorative bowl, about 1ft diameter.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "copper-decorative-vase",
-    "name": "Copper decorative vase",
-    "description": "",
-    "originalPrice": 50,
-    "askingPrice": 25,
-    "condition": "Like new",
-    "quantity": 1,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/copper decorative vase.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "large-decorative-vase",
-    "name": "White decorative vase",
-    "description": "",
-    "originalPrice": 50,
-    "askingPrice": 35,
-    "condition": "Like new",
-    "quantity": 1,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/large decorative vase, white.png"
-    ],
-    "active": true
-  },
+        "id": "necklace-e",
+        "name": "Gold astronaut necklace",
+        "description": "",
+        "originalPrice": 0,
+        "askingPrice": 15,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Jewelry",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/gold astronaut necklace.png"
+        ],
+        "active": true
+    },
     {
-    "id": "small-decorative-vase",
-    "name": "Small white decorative vase",
-    "description": "",
-    "originalPrice": 30,
-    "askingPrice": 15,
-    "condition": "Like new",
-    "quantity": 1,
-    "categories": [
-      "Decor"
-    ],
-    "labels": [
-        "Decor"
-    ],
-    "images": [
-      "images/small decorative vase, white.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "table-1",
-    "name": "Modern light wood coffee table",
-    "description": "",
-    "originalPrice": 124.99,
-    "askingPrice": 70,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Electronics"
-    ],
-    "labels": [
-
-    ],
-    "images": [
-      "images/light wood coffee table.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "ipad-1",
-    "name": "iPad 8th gen like new with stylus and case",
-    "description": "",
-    "originalPrice": 0,
-    "askingPrice": 100,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Electronics"
-    ],
-    "labels": [
-
-    ],
-    "images": [
-      "images/ipad.png"
-    ],
-    "active": true
-  },
+        "id": "ring-1",
+        "name": "Gold asteroid necklace",
+        "description": "",
+        "originalPrice": 0,
+        "askingPrice": 15,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Jewelry",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/large gold ring of asteroid hitting a planet.png"
+        ],
+        "active": true
+    },
     {
-    "id": "monitor-1",
-    "name": "HP monitor",
-    "description": "",
-    "originalPrice": 89.99,
-    "askingPrice": 60,
-    "condition": "Like new",
-    "quantity": 1,
-    "categories": [
-      "Electronics"
-    ],
-    "labels": [
-
-    ],
-    "images": [
-      "images/monitor.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "ps5-game-1",
-    "name": "Spirit of the North PS5 game",
-    "description": "",
-    "originalPrice": 22,
-    "askingPrice": 11,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Videogames"
-    ],
-    "labels": [
-        "Videogames"
-    ],
-    "images": [
-      "images/Spirit of the North PS5 game.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "ps5-game-2",
-    "name": "Rachet & Clank PS5 game",
-    "description": "",
-    "originalPrice": 44.39,
-    "askingPrice": 22,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Videogames"
-    ],
-    "labels": [
-        "Videogames"
-    ],
-    "images": [
-      "images/Rachet & Clank PS5 game.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "ps5-game-4",
-    "name": "Kena PS5 game",
-    "description": "",
-    "originalPrice": 25.34,
-    "askingPrice": 12,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Videogames"
-    ],
-    "labels": [
-        "Videogames"
-    ],
-    "images": [
-      "images/Kena PS5 game.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "ps5-game-5",
-    "name": "Elden Ring PS5 game",
-    "description": "",
-    "originalPrice": 49.00,
-    "askingPrice": 23,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Videogames"
-    ],
-    "labels": [
-        "Videogames"
-    ],
-    "images": [
-      "images/Elden Ring PS5 game.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "ps5-game-6",
-    "name": "Immortals: Fenyx Rising PS5 game",
-    "description": "",
-    "originalPrice": 25.49,
-    "askingPrice": 10,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Videogames"
-    ],
-    "labels": [
-        "Videogames"
-    ],
-    "images": [
-      "images/Immortals Fenyx rising.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "ps5-game-7",
-    "name": "Horizon Zero Dawn Complete PS5 game",
-    "description": "",
-    "originalPrice": 29.99,
-    "askingPrice": 13,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Videogames"
-    ],
-    "labels": [
-        "Videogames"
-    ],
-    "images": [
-      "images/Horizon zero dawn complete.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "ps5-game-8",
-    "name": "Slime Rancher PS5 game",
-    "description": "",
-    "originalPrice": 21.99,
-    "askingPrice": 10,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Videogames"
-    ],
-    "labels": [
-        "Videogames"
-    ],
-    "images": [
-      "images/slime ramcher.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "ps5-game-9",
-    "name": "Stray PS5 game",
-    "description": "",
-    "originalPrice": 39.99,
-    "askingPrice": 15,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Videogames"
-    ],
-    "labels": [
-        "Videogames"
-    ],
-    "images": [
-      "images/stray.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "ps5-console",
-    "name": "PS5 825GB like new original box and two controllers",
-    "description": "",
-    "originalPrice": 0,
-    "askingPrice": 380,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Videogames"
-    ],
-    "labels": [
-        "Videogames"
-    ],
-    "images": [
-      "images/ps5 like new two controllers.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "glasses-2",
-    "name": "Moscow mule glasses set of 4",
-    "description": "Copper moscow mule glasses, set of 4. I don't know the original cost, they were a gift.",
-    "originalPrice": 0,
-    "askingPrice": 10,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [
-      "images/Moscow mule glasses.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "glasses-3",
-    "name": "Decorative amber glasses set of 8",
-    "description": "Copper moscow mule glasses, set of 4. I don't know the original cost, they were a gift.",
-    "originalPrice": 60,
-    "askingPrice": 30,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [
-      "images/decorative amber glasses set of 8.png"
-    ],
-    "active": true
-  },
+        "id": "necklace-3",
+        "name": "Gold moon phase necklace",
+        "description": "",
+        "originalPrice": 0,
+        "askingPrice": 15,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Jewelry",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/gold necklace of moon phases .png"
+        ],
+        "active": true
+    },
     {
-    "id": "coasters-1",
-    "name": "Decorative geode coasters",
-    "description": "",
-    "originalPrice": 30,
-    "askingPrice": 10,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [
-      "images/geode coasters, set of 5.png"
-    ],
-    "active": true
-  },
-  {
-    "id": "aerogarden-1",
-    "name": "Two aerogardens",
-    "description": "",
-    "originalPrice": 128.06,
-    "askingPrice": 50,
-    "condition": "Like new",
-    "quantity": 2,
-    "categories": [
-      "Kitchenware"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [
-      "images/aerogarden.png"
-    ],
-    "active": true
-  },
+        "id": "ring-2",
+        "name": "Gold dagger ring",
+        "description": "",
+        "originalPrice": 0,
+        "askingPrice": 15,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Jewelry",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/gold dagger ring.png"
+        ],
+        "active": true
+    },
     {
-    "id": "saw-1",
-    "name": "Wet saw",
-    "description": "7-in 4.8-Amp Wet Tabletop Tile Saw",
-    "originalPrice": 99,
-    "askingPrice": 65,
-    "condition": "Very good",
-    "quantity": 2,
-    "categories": [
-      "Tools"
-    ],
-    "labels": [
-    ],
-    "images": [
-      "images/wet saw.png"
-    ],
-    "active": true
-  }
+        "id": "necklace-4",
+        "name": "Acryllic knife necklace",
+        "description": "",
+        "originalPrice": 0,
+        "askingPrice": 15,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Jewelry",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/acryllic knife necklace.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "leather-mask-1",
+        "name": "Leather mask",
+        "description": "Handmade leather mask from Ren Faire",
+        "originalPrice": 89,
+        "askingPrice": 50,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Clothing",
+            "Accessories"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/Leather ren faire mask.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "purse-1",
+        "name": "Small t-rex purse",
+        "description": "Amazing conversation starter lol",
+        "originalPrice": 40,
+        "askingPrice": 20,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Clothing",
+            "Accessories"
+        ],
+        "labels": [
+            "Like New"
+        ],
+        "images": [
+            "images/trex purse, like new.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "foldable-solar-panel-charger-1",
+        "name": "Foldable solar panel charger",
+        "description": "Unused solar panel charger, waterproof, 100W",
+        "originalPrice": 89,
+        "askingPrice": 50,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Tools/utilities",
+            "Outdoor gear"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/foldable solar panel charger.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "standing-desk-1",
+        "name": "White standing desk",
+        "description": "Like new standing desk, non-motorized",
+        "originalPrice": 99,
+        "askingPrice": 55,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Furniture"
+        ],
+        "labels": [
+            "Home Office"
+        ],
+        "images": [
+            "images/non motorized standing desk.png"
+        ],
+        "active": false
+    },
+    {
+        "id": "beach-chairs-1",
+        "name": "Two inflatable beach chairs black and white pattern",
+        "description": "New - asking $20/chair",
+        "originalPrice": 70,
+        "askingPrice": 40,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Furniture"
+        ],
+        "labels": [
+            "Home Office"
+        ],
+        "images": [
+            "images/inflatable beach chairs abstract black and white pattern, 2 chairs available.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "mai-parson-chair",
+        "name": "Two mai parson chairs",
+        "description": " in cloud gray(* different color than picture, sorry! I couldn't find this product live anymore). They are I understand it to be a light gray and condition is new, box never opened. Asking 30/chair because I don't remember cost and couldn't find the order searching my emails.",
+        "originalPrice": 0,
+        "askingPrice": 30,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Furniture"
+        ],
+        "labels": [
+            "Dining room"
+        ],
+        "images": [
+            "images/Mai parson chair.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "portable-power-station-1",
+        "name": "Portable power station",
+        "description": "256Wh 6-port 300W (600W peak) solar generator with solar panel",
+        "originalPrice": 333,
+        "askingPrice": 200,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Tools/utilities",
+            "Outdoor gear"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/portable power station solar generator.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "portable-power-bank",
+        "name": "Schumaker Electric portable power station",
+        "description": "Schumaker Electric portable power station model SJ1332 12v",
+        "originalPrice": 122,
+        "askingPrice": 75,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Tools/utilities",
+            "Outdoor gear"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/portable power station.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "robot-vaccum-1",
+        "name": "Roborock automatic vacuum",
+        "description": "Roborock Q8 Max+, like new",
+        "originalPrice": 496.63,
+        "askingPrice": 250,
+        "condition": "Used 2x, like new",
+        "quantity": 1,
+        "categories": [
+            "Household",
+            "Cleaning supplies"
+        ],
+        "labels": [],
+        "images": [
+            "images/robot vacuum.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "screened-gazebo",
+        "name": "Screened gazebo",
+        "description": "Screened gazebo 10x13, still in box",
+        "originalPrice": 376.24,
+        "askingPrice": 250,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Outdoors"
+        ],
+        "labels": [
+            "Decor",
+            "New"
+        ],
+        "images": [
+            "images/screened gazebo.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "bed-1",
+        "name": "Metal full sized bed",
+        "description": "Coming soon, matching set of drawers if you are interested in a complete bedroom set. I have a matress and memory foam topper if interested too - it has barely ever been used and is in good condition.",
+        "originalPrice": 115,
+        "askingPrice": 75,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Bedroom"
+        ],
+        "labels": [
+            "Decor",
+            "New"
+        ],
+        "images": [
+            "images/white full sized beed.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "tent",
+        "name": "6-Person tent with stove jack",
+        "description": "Ozark Trail North Fork 6-Person tent with stove jack",
+        "originalPrice": 649.00,
+        "askingPrice": 450,
+        "condition": "Used once, like new",
+        "quantity": 1,
+        "categories": [
+            "Outdoors"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/stove-compatible large tent.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "backsplash1",
+        "name": "7 boxes of elongated hexagon tiles for backsplash, white",
+        "description": "They go for 45/box currently. In total they cover 37 square feet. Suitable for a small kitchen backsplash or bathroom backsplash depending on how big your space is. See also, will be posting a wet saw soon that can cut them.",
+        "originalPrice": 45,
+        "askingPrice": 30,
+        "condition": "New",
+        "quantity": 7,
+        "categories": [
+            "Kitchen",
+            "Bathroom"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/hexagon tiles for backsplash.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "rowing-machine",
+        "name": "Rowing machine",
+        "description": "Sunny Health rowing machine",
+        "originalPrice": 129.00,
+        "askingPrice": 30,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Exercise equipment"
+        ],
+        "labels": [
+            "Like new"
+        ],
+        "images": [
+            "images/Sunny Health rowing machine.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "yoga-mat",
+        "name": "Yoga mat",
+        "description": "Never used",
+        "originalPrice": 44,
+        "askingPrice": 20,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Exercise equipment"
+        ],
+        "labels": [
+            "new"
+        ],
+        "images": [
+            "images/yoga mat, unused.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "camping-stove",
+        "name": "Portable wood camping stove",
+        "description": "BENTISM portable wood camping stove",
+        "originalPrice": 179.00,
+        "askingPrice": 70,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Outdoors"
+        ],
+        "labels": [
+            "Like new"
+        ],
+        "images": [
+            "images/wood camping stove for hot tent.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "decorative-glasses-1",
+        "name": "Set of 4 decorative glasses",
+        "description": "Used once, beautiful decorative glasses set of 4.",
+        "originalPrice": 25,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "Decor",
+            "New"
+        ],
+        "images": [
+            "images/decorative glasses set of 4.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "tiki-glass-1",
+        "name": "Bleeding heart tiki glass",
+        "description": "",
+        "originalPrice": 9.95,
+        "askingPrice": 5,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "Tiki"
+        ],
+        "images": [
+            "images/bleeding heart tiki glass.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "tiki-glass-2",
+        "name": "Faces tiki glass",
+        "description": "",
+        "originalPrice": 9.95,
+        "askingPrice": 5,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "Tiki"
+        ],
+        "images": [
+            "images/faces tiki mug.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "tiki-glass-3",
+        "name": "Jellyfish tiki glass",
+        "description": "",
+        "originalPrice": 9.95,
+        "askingPrice": 5,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "Tiki"
+        ],
+        "images": [
+            "images/jellyfish tiki mug.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "tiki-glass-4",
+        "name": "4 set of tiki glasses",
+        "description": "",
+        "originalPrice": 26.95,
+        "askingPrice": 15,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "Tiki"
+        ],
+        "images": [
+            "images/multiple-tiki-glasses.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "tiki-glass-5",
+        "name": "Shell tiki glass",
+        "description": "",
+        "originalPrice": 9.95,
+        "askingPrice": 5,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "Tiki"
+        ],
+        "images": [
+            "images/shell tiki glass.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "tiki-glass-6",
+        "name": "Seahorse tiki glass",
+        "description": "",
+        "originalPrice": 9.95,
+        "askingPrice": 5,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "Tiki"
+        ],
+        "images": [
+            "images/seahorse tiki mug.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "tiki-glass-7",
+        "name": "Skull tiki glass",
+        "description": "",
+        "originalPrice": 15,
+        "askingPrice": 7,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "Tiki"
+        ],
+        "images": [
+            "images/seahorse tiki mug.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "books-all",
+        "name": "Huge variety of books",
+        "description": "I had to put nonsense pricing info here because the variety among the books was so huge. There were too many of them to do individual listings so I am tracking them in this spreadsheet: https://docs.google.com/spreadsheets/d/1w2dzovvmssSHCbizy5GmqDLCkiyMN3rM32cufqa2D88/edit?usp=sharing Let me know which titles you are interested in if you want any.",
+        "originalPrice": 20,
+        "askingPrice": 20,
+        "condition": "New",
+        "quantity": 250,
+        "categories": [
+            "Books"
+        ],
+        "labels": [
+            "Books"
+        ],
+        "images": [
+            "images/books images.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "game-1",
+        "name": "Code Names game",
+        "description": "",
+        "originalPrice": 15,
+        "askingPrice": 7,
+        "condition": "New",
+        "quantity": 250,
+        "categories": [
+            "Games"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/code names.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "game-2",
+        "name": "Dizzy Date game",
+        "description": "",
+        "originalPrice": 24,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Games"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/dizzy date couples game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "game-3",
+        "name": "Hot Takes game",
+        "description": "",
+        "originalPrice": 19.99,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Games"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/hot takes game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "game-4",
+        "name": "Off Topic game",
+        "description": "",
+        "originalPrice": 29.99,
+        "askingPrice": 15,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Games"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/Off topic.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "game-5",
+        "name": "Ransom Notes game",
+        "description": "",
+        "originalPrice": 49.99,
+        "askingPrice": 25,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Games"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/Ransom Notes game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "game-7",
+        "name": "Salsa game",
+        "description": "",
+        "originalPrice": 29.99,
+        "askingPrice": 15,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Games"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/Salsa game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "game-8",
+        "name": "Scythe game",
+        "description": "",
+        "originalPrice": 77.71,
+        "askingPrice": 45,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Games"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/scythe game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "game-9",
+        "name": "What do you meme game",
+        "description": "",
+        "originalPrice": 77.71,
+        "askingPrice": 45,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Games"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/What do you meme game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "game-10",
+        "name": "Wingspan game",
+        "description": "",
+        "originalPrice": 47.99,
+        "askingPrice": 30,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Games"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/wingspan game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "game-11",
+        "name": "Worst case scenario game",
+        "description": "",
+        "originalPrice": 16.72,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Games"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/Worst case scenario adult game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "painting-1",
+        "name": "Golden framed goth painting, blue",
+        "description": "",
+        "originalPrice": 50,
+        "askingPrice": 35,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Blue",
+            "Decor",
+            "Goth"
+        ],
+        "images": [
+            "images/blue artistic animal painting.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "painting-2",
+        "name": "Gray framed print",
+        "description": "",
+        "originalPrice": 50,
+        "askingPrice": 35,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/print in gray frame.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "painting-3",
+        "name": "Map of Baltimore large framed print",
+        "description": "",
+        "originalPrice": 50,
+        "askingPrice": 35,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/large print of a map of Baltimore.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "painting-4",
+        "name": "Map of Raleigh large framed print",
+        "description": "",
+        "originalPrice": 50,
+        "askingPrice": 35,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/framed map of raleigh 24x36.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "painting-5",
+        "name": "Framed Dali print",
+        "description": "",
+        "originalPrice": 40,
+        "askingPrice": 20,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/framed Dali print.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "painting-6",
+        "name": "Large print in gray frame",
+        "description": "",
+        "originalPrice": 50,
+        "askingPrice": 30,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/large print in white frame 24x36.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "painting-6",
+        "name": "Large print in gray frame",
+        "description": "",
+        "originalPrice": 50,
+        "askingPrice": 30,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/large print in gray frame 24 x 36.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "chaise",
+        "name": "Gray chaise",
+        "description": "",
+        "originalPrice": 100,
+        "askingPrice": 60,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/gray chaise.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "frames-1",
+        "name": "8x10 light wood frames",
+        "description": "",
+        "originalPrice": 10,
+        "askingPrice": 5,
+        "condition": "New",
+        "quantity": 4,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/8x10 light wood frames.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "frames-2",
+        "name": "Multicolored wood frames for 4x6 picture",
+        "description": "",
+        "originalPrice": 15,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 3,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/multicolored wood frames for 4x6 pictures.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "frames-3",
+        "name": "5x7 gold frame",
+        "description": "",
+        "originalPrice": 7,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 3,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/5x7 gold frame.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "frames-4",
+        "name": "5x7 wood frame",
+        "description": "",
+        "originalPrice": 7,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 3,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/5x7 wood frame.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "art-1",
+        "name": "Bosch print",
+        "description": "Print only, not with frame",
+        "originalPrice": 11,
+        "askingPrice": 5,
+        "condition": "New",
+        "quantity": 3,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/Bosch Garden of Earthly Delights poster.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "gold-mirror-1",
+        "name": "Gold decorative mirror 38x21",
+        "description": "",
+        "originalPrice": 61,
+        "askingPrice": 5,
+        "condition": "New",
+        "quantity": 30,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/decorative gold mirror 38 x 21.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "candlesticks-1",
+        "name": "Green candles and candlesticks",
+        "description": "Four decorative green candles and candlesticks. They've been lit once because I have a weird superstition about keeping unlit candles around. They burned for maybe just a couple of minutes though.",
+        "originalPrice": 60,
+        "askingPrice": 25,
+        "condition": "Very good",
+        "quantity": 4,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor",
+            "Green"
+        ],
+        "images": [
+            "images/green candles and candlesticks.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "decorative-bowl-1",
+        "name": "Blue geometric decorative bowl",
+        "description": "",
+        "originalPrice": 30,
+        "askingPrice": 13,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor",
+            "Blue"
+        ],
+        "images": [
+            "images/blue decorative bowl, about 1ft diameter.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "copper-decorative-vase",
+        "name": "Copper decorative vase",
+        "description": "",
+        "originalPrice": 50,
+        "askingPrice": 25,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/copper decorative vase.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "large-decorative-vase",
+        "name": "White decorative vase",
+        "description": "",
+        "originalPrice": 50,
+        "askingPrice": 35,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/large decorative vase, white.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "small-decorative-vase",
+        "name": "Small white decorative vase",
+        "description": "",
+        "originalPrice": 30,
+        "askingPrice": 15,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/small decorative vase, white.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "table-1",
+        "name": "Modern light wood coffee table",
+        "description": "",
+        "originalPrice": 124.99,
+        "askingPrice": 70,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Electronics"
+        ],
+        "labels": [],
+        "images": [
+            "images/light wood coffee table.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ipad-1",
+        "name": "iPad 8th gen like new with stylus and case",
+        "description": "",
+        "originalPrice": 0,
+        "askingPrice": 100,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Electronics"
+        ],
+        "labels": [],
+        "images": [
+            "images/ipad.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "monitor-1",
+        "name": "HP monitor",
+        "description": "",
+        "originalPrice": 89.99,
+        "askingPrice": 60,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics"
+        ],
+        "labels": [],
+        "images": [
+            "images/monitor.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-game-1",
+        "name": "Spirit of the North PS5 game",
+        "description": "",
+        "originalPrice": 22,
+        "askingPrice": 11,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/Spirit of the North PS5 game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-game-2",
+        "name": "Rachet & Clank PS5 game",
+        "description": "",
+        "originalPrice": 44.39,
+        "askingPrice": 22,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/Rachet & Clank PS5 game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-game-4",
+        "name": "Kena PS5 game",
+        "description": "",
+        "originalPrice": 25.34,
+        "askingPrice": 12,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/Kena PS5 game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-game-5",
+        "name": "Elden Ring PS5 game",
+        "description": "",
+        "originalPrice": 49.00,
+        "askingPrice": 23,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/Elden Ring PS5 game.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-game-6",
+        "name": "Immortals: Fenyx Rising PS5 game",
+        "description": "",
+        "originalPrice": 25.49,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/Immortals Fenyx rising.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-game-7",
+        "name": "Horizon Zero Dawn Complete PS5 game",
+        "description": "",
+        "originalPrice": 29.99,
+        "askingPrice": 13,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/Horizon zero dawn complete.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-game-8",
+        "name": "Slime Rancher PS5 game",
+        "description": "",
+        "originalPrice": 21.99,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/slime ramcher.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-game-9",
+        "name": "Stray PS5 game",
+        "description": "",
+        "originalPrice": 39.99,
+        "askingPrice": 15,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/stray.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-console",
+        "name": "PS5 825GB like new original box and two controllers",
+        "description": "",
+        "originalPrice": 0,
+        "askingPrice": 380,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/ps5 like new two controllers.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "glasses-2",
+        "name": "Moscow mule glasses set of 4",
+        "description": "Copper moscow mule glasses, set of 4. I don't know the original cost, they were a gift.",
+        "originalPrice": 0,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/Moscow mule glasses.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "glasses-3",
+        "name": "Decorative amber glasses set of 8",
+        "description": "Copper moscow mule glasses, set of 4. I don't know the original cost, they were a gift.",
+        "originalPrice": 60,
+        "askingPrice": 30,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/decorative amber glasses set of 8.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "coasters-1",
+        "name": "Decorative geode coasters",
+        "description": "",
+        "originalPrice": 30,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/geode coasters, set of 5.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "aerogarden-1",
+        "name": "Two aerogardens",
+        "description": "",
+        "originalPrice": 128.06,
+        "askingPrice": 50,
+        "condition": "Like new",
+        "quantity": 2,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [
+            "New"
+        ],
+        "images": [
+            "images/aerogarden.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "saw-1",
+        "name": "Wet saw",
+        "description": "7-in 4.8-Amp Wet Tabletop Tile Saw",
+        "originalPrice": 99,
+        "askingPrice": 65,
+        "condition": "Very good",
+        "quantity": 2,
+        "categories": [
+            "Tools"
+        ],
+        "labels": [],
+        "images": [
+            "images/wet saw.png"
+        ],
+        "active": true
+    }
 ]
