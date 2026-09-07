@@ -579,25 +579,6 @@
     "active": true
   },
   {
-    "id": "game-6",
-    "name": "Salsa game",
-    "description": "",
-    "originalPrice": 29.99,
-    "askingPrice": 15,
-    "condition": "New",
-    "quantity": 1,
-    "categories": [
-      "Games"
-    ],
-    "labels": [
-        "New"
-    ],
-    "images": [ 
-        "images/Ransom Notes game.png"
-    ],
-    "active": true
-  },
-  {
     "id": "game-7",
     "name": "Salsa game",
     "description": "",
