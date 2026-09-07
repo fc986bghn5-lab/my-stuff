@@ -39,7 +39,7 @@
     ],
     "active": true
   },
-    {
+  {
     "id": "standing-desk-1",
     "name": "White standing desk",
     "description": "Like new standing desk, non-motorized",
@@ -55,6 +55,25 @@
     ],
     "images": [
       "images/non motorized standing desk.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "beach-chairs-1",
+    "name": "Two inflatable beach chairs black and white pattern",
+    "description": "New - asking $20/chair",
+    "originalPrice": 70,
+    "askingPrice": 40,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Furniture"
+    ],
+    "labels": [
+      "Home Office"
+    ],
+    "images": [
+      "images/inflatable beach chairs abstract black and white pattern, 2 chairs available.png"
     ],
     "active": true
   },
@@ -134,6 +153,26 @@
     ],
     "images": [
       "images/screened gazebo.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "bed-1",
+    "name": "Metal full sized bed",
+    "description": "Coming soon, matching set of drawers if you are interested in a complete bedroom set. I have a matress and memory foam topper if interested too - it has barely ever been used and is in good condition.",
+    "originalPrice": 115,
+    "askingPrice": 75,
+    "condition": "Like New",
+    "quantity": 1,
+    "categories": [
+      "Bedroom"
+    ],
+    "labels": [
+        "Decor",
+        "New"
+    ],
+    "images": [
+      "images/white full sized beed.png"
     ],
     "active": true
   },
@@ -444,6 +483,44 @@
     "active": true
   },
   {
+    "id": "frames-3",
+    "name": "5x7 gold frame",
+    "description": "",
+    "originalPrice": 7,
+    "askingPrice": 5,
+    "condition": "Like new",
+    "quantity": 3,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/5x7 gold frame.png"
+    ],
+    "active": true
+  },
+    {
+    "id": "frames-4",
+    "name": "5x7 wood frame",
+    "description": "",
+    "originalPrice": 7,
+    "askingPrice": 5,
+    "condition": "Like new",
+    "quantity": 3,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/5x7 wood frame.png"
+    ],
+    "active": true
+  },
+  {
     "id": "art-1",
     "name": "Bosch print",
     "description": "Print only, not with frame",
@@ -459,6 +536,25 @@
     ],
     "images": [
       "images/Bosch Garden of Earthly Delights poster.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "gold-mirror-1",
+    "name": "Gold decorative mirror 38x21",
+    "description": "",
+    "originalPrice": 61,
+    "askingPrice": 5,
+    "condition": "New",
+    "quantity": 30,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor"
+    ],
+    "images": [
+      "images/decorative gold mirror 38 x 21.png"
     ],
     "active": true
   },
@@ -707,6 +803,25 @@
     ],
     "images": [
       "images/decorative amber glasses set of 8.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "aerogarden-1",
+    "name": "Two aerogardens",
+    "description": "Copper moscow mule glasses, set of 4. I don't know the original cost, they were a gift.",
+    "originalPrice": 128.06,
+    "askingPrice": 50,
+    "condition": "Like new",
+    "quantity": 1,
+    "categories": [
+      "Kitchenware"
+    ],
+    "labels": [
+        "New"
+    ],
+    "images": [
+      "images/aerogarden.png"
     ],
     "active": true
   }
