@@ -425,6 +425,26 @@
     "active": true
   },
   {
+    "id": "candlesticks-1",
+    "name": "Green candles and candlesticks",
+    "description": "Four decorative green candles and candlesticks. They've been lit once because I have a weird superstition about keeping unlit candles around. They burned for maybe just a couple of minutes though.",
+    "originalPrice": 60,
+    "askingPrice": 25,
+    "condition": "Very good",
+    "quantity": 4,
+    "categories": [
+      "Decor"
+    ],
+    "labels": [
+        "Decor",
+        "Green"
+    ],
+    "images": [
+      "images/green candles and candlesticks.png"
+    ],
+    "active": true
+  },
+  {
     "id": "copper-decorative-vase",
     "name": "Copper decorative vase",
     "description": "",
@@ -516,6 +536,101 @@
     ],
     "images": [
       "images/Elden Ring PS5 game.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "ps5-game-6",
+    "name": "Immortals: Fenyx Rising PS5 game",
+    "description": "",
+    "originalPrice": 25.49,
+    "askingPrice": 10,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Videogames"
+    ],
+    "labels": [
+        "Videogames"
+    ],
+    "images": [
+      "images/Immortals Fenyx rising.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "ps5-game-7",
+    "name": "Horizon Zero Dawn Complete PS5 game",
+    "description": "",
+    "originalPrice": 29.99,
+    "askingPrice": 13,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Videogames"
+    ],
+    "labels": [
+        "Videogames"
+    ],
+    "images": [
+      "images/Horizon zero dawn complete.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "ps5-game-8",
+    "name": "Slime Rancher PS5 game",
+    "description": "",
+    "originalPrice": 21.99,
+    "askingPrice": 10,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Videogames"
+    ],
+    "labels": [
+        "Videogames"
+    ],
+    "images": [
+      "images/slime ramcher.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "ps5-game-9",
+    "name": "Stray PS5 game",
+    "description": "",
+    "originalPrice": 39.99,
+    "askingPrice": 15,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Videogames"
+    ],
+    "labels": [
+        "Videogames"
+    ],
+    "images": [
+      "images/stray.png"
+    ],
+    "active": true
+  },
+  {
+    "id": "ps5-console",
+    "name": "PS5 825GB like new original box and two controllers",
+    "description": "",
+    "originalPrice": 0,
+    "askingPrice": 380,
+    "condition": "New",
+    "quantity": 1,
+    "categories": [
+      "Videogames"
+    ],
+    "labels": [
+        "Videogames"
+    ],
+    "images": [
+      "images/ps5 like new two controllers.png"
     ],
     "active": true
   },
