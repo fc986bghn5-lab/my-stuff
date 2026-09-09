@@ -566,7 +566,7 @@
         "images": [
             "images/faces tiki mug.png"
         ],
-        "active": true
+        "active": false
     },
     {
         "id": "tiki-glass-3",
@@ -604,7 +604,7 @@
         "images": [
             "images/multiple-tiki-glasses.png"
         ],
-        "active": true
+        "active": false
     },
     {
         "id": "tiki-glass-5",
@@ -891,7 +891,7 @@
         "images": [
             "images/blue artistic animal painting.png"
         ],
-        "active": true
+        "active": false
     },
     {
         "id": "painting-2",
@@ -1457,7 +1457,7 @@
         "images": [
             "images/ps5 like new two controllers.png"
         ],
-        "active": true
+        "active": false
     },
     {
         "id": "glasses-2",
