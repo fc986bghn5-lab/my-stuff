@@ -177,7 +177,7 @@
         "images": [
             "images/gold dagger ring.png"
         ],
-        "active": true
+        "active": false
     },
     {
         "id": "necklace-4",
@@ -277,6 +277,44 @@
             "images/non motorized standing desk.png"
         ],
         "active": false
+    },
+    {
+        "id": "standing-desk-2",
+        "name": "White standing desk",
+        "description": "IMPORTANT NOTE: This desk works but there is a couple second delay on the raising/lowering mechanism. I don't know why, if you are handy you can probably figure it out. It works, it just takes a couple seconds. I couldn't find the exact model but it is similar to this one in appearance and dimensions, except it is more matte finish and less glossy.",
+        "originalPrice": 0,
+        "askingPrice": 125,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Furniture"
+        ],
+        "labels": [
+            "Home Office"
+        ],
+        "images": [
+            "images/Standing desk.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "beanbag",
+        "name": "Beanbag with queen mattress inside",
+        "description": "Has a queen sized mattress inside.",
+        "originalPrice": 277,
+        "askingPrice": 125,
+        "condition": "Like New",
+        "quantity": 1,
+        "categories": [
+            "Furniture"
+        ],
+        "labels": [
+            "Living room"
+        ],
+        "images": [
+            "images/queen sized bean bag with mattress inside.png"
+        ],
+        "active": true
     },
     {
         "id": "beach-chairs-1",
@@ -531,6 +569,23 @@
         "active": true
     },
     {
+        "id": "butane-torch",
+        "name": "Butane torch",
+        "description": "",
+        "originalPrice": 25,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Kitchenware"
+        ],
+        "labels": [],
+        "images": [
+            "images/Butane torch.png"
+        ],
+        "active": true
+    },
+    {
         "id": "tiki-glass-1",
         "name": "Bleeding heart tiki glass",
         "description": "",
@@ -659,7 +714,7 @@
             "Tiki"
         ],
         "images": [
-            "images/seahorse tiki mug.png"
+            "images/skull tiki glass.png"
         ],
         "active": true
     },
@@ -989,7 +1044,7 @@
         "active": true
     },
     {
-        "id": "painting-6",
+        "id": "painting-7",
         "name": "Large print in gray frame",
         "description": "",
         "originalPrice": 50,
@@ -1004,6 +1059,25 @@
         ],
         "images": [
             "images/large print in gray frame 24 x 36.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "painting-8",
+        "name": "Large print in gray frame",
+        "description": "",
+        "originalPrice": 50,
+        "askingPrice": 30,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Decor"
+        ],
+        "labels": [
+            "Decor"
+        ],
+        "images": [
+            "images/Gray framed print.png"
         ],
         "active": true
     },
@@ -1289,6 +1363,223 @@
         "active": true
     },
     {
+        "id": "dvd-1",
+        "name": "Big Hero 6 dvd",
+        "description": "",
+        "originalPrice": 10.19,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/Big Hero 6 dvd.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "dvd-2",
+        "name": "Clueless dvd",
+        "description": "",
+        "originalPrice": 13,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/Clueless dvd.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "dvd-3",
+        "name": "Coco dvd",
+        "description": "",
+        "originalPrice": 13,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/Coco dvd.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "dvd-4",
+        "name": "Gran Torino dvd",
+        "description": "",
+        "originalPrice": 10,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/Gran Torino dvd.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "dvd-5",
+        "name": "Elf dvd",
+        "description": "",
+        "originalPrice": 10,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/elf dvd.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "dvd-6",
+        "name": "Home Alone dvd",
+        "description": "",
+        "originalPrice": 10,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/home alone dvd.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "dvd-7",
+        "name": "Mrs. Doubtfire dvd",
+        "description": "",
+        "originalPrice": 10,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/mrs doubtfire dvd.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "dvd-7",
+        "name": "School of Rock dvd",
+        "description": "",
+        "originalPrice": 10,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/School of Rock dvd.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "dvd-8",
+        "name": "Sin City dvd",
+        "description": "",
+        "originalPrice": 10,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/sin city dvd.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "dvd-9",
+        "name": "The Exorcist dvd",
+        "description": "",
+        "originalPrice": 10,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/The Exorcist dvd.png"
+        ],
+        "active": true
+    },
+        {
+        "id": "dvd-9",
+        "name": "Tremors dvd",
+        "description": "",
+        "originalPrice": 10,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/tremors 7 movie set.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "switch-game-1",
+        "name": "Link's Awakening switch game",
+        "description": "",
+        "originalPrice": 59,
+        "askingPrice": 30,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/zelda link's awakening switch game.png"
+        ],
+        "active": true
+    },
+    {
         "id": "ps5-game-1",
         "name": "Spirit of the North PS5 game",
         "description": "",
@@ -1437,6 +1728,44 @@
         ],
         "images": [
             "images/stray.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-game-10",
+        "name": "Horizon Forbidden West PS5 game",
+        "description": "",
+        "originalPrice": 29.99,
+        "askingPrice": 13,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/Horizon Forbidden West.png"
+        ],
+        "active": true
+    },
+    {
+        "id": "ps5-game-11",
+        "name": "Smurfs PS5 game",
+        "description": "",
+        "originalPrice": 23,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/smurfs ps5 game.png"
         ],
         "active": true
     },
