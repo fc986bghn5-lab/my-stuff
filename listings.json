@@ -1560,6 +1560,24 @@
         ],
         "active": true
     },
+            {
+        "id": "dvd-10",
+        "name": "Les Miserables dvd",
+        "description": "",
+        "originalPrice": 10,
+        "askingPrice": 5,
+        "condition": "Like new",
+        "quantity": 1,
+        "categories": [
+            "Electronics",
+            "Movies"
+        ],
+        "labels": [],
+        "images": [
+            "images/Les Miserables dvd.png"
+        ],
+        "active": true
+    },
     {
         "id": "switch-game-1",
         "name": "Link's Awakening switch game",
@@ -1576,6 +1594,44 @@
         ],
         "images": [
             "images/zelda link's awakening switch game.png"
+        ],
+        "active": true
+    },
+        {
+        "id": "switch-game-2",
+        "name": "Skyward sword switch game",
+        "description": "",
+        "originalPrice": 76,
+        "askingPrice": 45,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/Zelda skyward sword videogame.png"
+        ],
+        "active": true
+    },
+            {
+        "id": "switch-game-3",
+        "name": "Just dance 2022 switch game",
+        "description": "",
+        "originalPrice": 30,
+        "askingPrice": 10,
+        "condition": "New",
+        "quantity": 1,
+        "categories": [
+            "Videogames"
+        ],
+        "labels": [
+            "Videogames"
+        ],
+        "images": [
+            "images/just dance 2022 switch game.png"
         ],
         "active": true
     },
